@@ -15,15 +15,16 @@ The concept of Safe Intelligent transportation leverages technology advancements
 ## Motivation
 Despite advancements in car safety and infrastructure, road accidents remain a leading cause of death among youth and young adults. This project seeks to improve urban living conditions and save lives by transforming road safety with AI.
 
-## Objective
+## Objective 🚀
 This project aims to develop a Neural Network (NN) model that predicts and detects road accidents before they occur. The model is designed to learn from video scenes and identify early-stage accident patterns, contributing significantly to the goal of zero road deaths through AI.
 
 ## Pipeline
 
 The project follows a pipeline of
-feature extraction → data preprocessing → accident prediction.
 
-## Description 
+> feature extraction → data preprocessing → accident prediction.
+
+## Description 🌟
 
 we utilized the [car crash dataset (CCD)](https://github.com/Cogito2012/CarCrashDataset) for the analysis of accidents and non-accidents. In order to extract features from the videos within the dataset, the YOLOv9-e model from ultralytics was employed for object detection. It was observed that the model required fine-tuning specifically for the detection of transportation objects from a dashcam viewpoint to align with the objects present in the car crash dataset and to efficiently detect objects. The [vehicle orientation dataset](https://github.com/sekilab/VehicleOrientationDataset/tree/main) was utilized for the fine-tuning of the YOLOv9 model due to its inclusion of object orientations which served as a crucial feature for the model to learn motion patterns during the analysis of video frames. Subsequently, the YOLO model was employed to analyze the CCD videos and extract features and Data was preprocessed and organized into sequences for training the LSTM and GRU models, built using keras for early accident detection.
 
@@ -83,7 +84,7 @@ Upon executing the code, the resulting file structure will be as follows:
 
 ```
 
-## Recommendations for Further Work
+## Recommendations for Further Work 💡
 
 These are some suggestions for future enhancements and contributions to elevate this project.
 
@@ -98,7 +99,7 @@ These are some suggestions for future enhancements and contributions to elevate 
 These proposed directions underscore our commitment to refining our approach and enhancing model performance, contributing significantly to traffic safety solutions.
 
 
-## Contribution guidelines
+## Contribution guidelines 🛠️
 
 We welcome contributions  to further enhance this project's capabilities and reach its objectives more effectively. To contribute please follow the following steps :
 
@@ -111,4 +112,4 @@ We welcome contributions  to further enhance this project's capabilities and rea
 7) Open a Pull Request: Propose your changes to the original project.
 8) Discuss and Review: we will review it, and may discuss the changes.
 
-If accepted, the Pull Request will Get Merged and your changes will be merged into the project.
+If accepted, the Pull Request will Get Merged and your changes will be merged into the project.😊
