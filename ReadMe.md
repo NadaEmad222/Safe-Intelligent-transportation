@@ -1,4 +1,4 @@
-# Safe Intelligent Transportation Using AI in Smart Cities
+# Safe Intelligent Transportation Using AI in Smart Cities 🚗
 
 The concept of Safe Intelligent transportation leverages technology advancements and AI to enhance the sustainability, efficacy, and security of urban transportation networks in Digital Cities. It involves integrating cutting-edge technologies with transportation infrastructure and vehicles to facilitate statistical analysis, real-time detections, and automated decision-making.
 
