@@ -16,7 +16,7 @@ The concept of Safe Intelligent transportation leverages technology advancements
 Despite advancements in car safety and infrastructure, road accidents remain a leading cause of death among youth and young adults. This project seeks to improve urban living conditions and save lives by transforming road safety with AI.
 
 ## Objective 🚀
-This project aims to develop a Neural Network (NN) model that predicts and detects road accidents before they occur. The model is designed to learn from video scenes and identify early-stage accident patterns, contributing significantly to the goal of zero road deaths through AI.
+This project aims to develop a Neural Network (NN) model that predicts and early detects road accidents before they occur. The model is designed to learn from video scenes and identify early-stage accident patterns, contributing significantly to the goal of zero road deaths through AI.
 
 ## Pipeline
 
